@@ -130,4 +130,19 @@ def merge_weekly():
 
     return df_sales
 
-merge_weekly()
+df = merge_weekly()
+
+
+prep.df = prep.rename_columns(prep.df)
+prep.static_df = prep.create_static_features(prep.df)
+prep.df = prep.group_by_unique_id(prep.df)
+prep.df = prep.add_actual_season(prep.df)
+prep.df = prep.add_rolling_average(prep.df)
+prep.df = prep.setup_holidays(prep.df)
+prep.df = prep.setup_event_dates(prep.df)
+prep.df = prep.fill_nan_and_filter(prep.df)
+prep.df = prep.filter_columns(prep.df)
+prep.continous(prep.df.copy(), prep.static_df.copy())
+prep.recent(prep.df.copy(), prep.static_df.copy())
+
+df_preped = pd.concat([prep.continous_df, prep.recent_df])

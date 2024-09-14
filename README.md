@@ -156,3 +156,30 @@ The rows should be resampled by week on a Monday.
 
 - Consider the computational efficiency of your solution. Optimize where possible to handle large datasets.
 - Provide an analysis of time complexity or profiling results if there are performance concerns.
+
+
+# Savings Results
+The results have to be saved on the output_data folder, name processed_data in parquet format.
+
+"output_data/processed_data.parquet"
+
+# Tests
+
+## How to test your final pipeline
+- Use the 'make' cli command to ensure your pipeline passes all the tests before you submit the result.
+- Ensure you only need the method .run() to source, transform, save the data.
+
+## Submiting Results
+- Create a repository in github.com, and upload your code, together with all the necessary files to run the code.
+- Share the repository to dinis.timoteo@ako-ai.com
+
+## Results Evaluation:
+1. Processed data passes all tests
+2. Code Evaluation (mentioned above)
+3. Efficiency and Performance (mentioned above)
+
+
+# Final Considerations
+1. Ensure the setup.py is code to install all the necessary packages.
+2. Ensure the requirements.txt contain the packages and versions used.
+3. Bonus points for the use of Dask instead of Pandas.
