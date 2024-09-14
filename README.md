@@ -3,15 +3,20 @@
 ## Data Overview
 
 The data is represented in 4 tables related to the retail-fashion industry.
+</details>
 
 ### Tables
+</details>
+
 
 1. **transac.parquet**: Represents each sale that occurred for each SKU item.
 2. **pos.parquet**: Represents the stores for a particular client, whether they are active or not, and their features.
 3. **sku.parquet**: Represents the association from SKU to AC.
 4. **ac.parquet**: Represents the features and hierarchy of each AC.
+<details closed><summary>.</summary>
 
 ### Table Columns
+</details>
 
 #### **transac.parquet**
 - **sku**: Item reference.
@@ -57,12 +62,16 @@ The data is represented in 4 tables related to the retail-fashion industry.
 - **article_color**: Article reference with color.
 - **image**: Item image.
 - **leadtime_prod_w**: Item production information.
+<details closed><summary>.</summary>
+
+<details closed><summary>.</summary>
 
 ## Test Goal
-
+</details>
 From these 4 tables, create a pipeline of data cleaning and transformation, where we expect the following outcome:
 
 ### Outcome Columns
+</details>
 
 - **ds**: Date.
 - **unique_id**: AC reference.
@@ -82,7 +91,11 @@ From these 4 tables, create a pipeline of data cleaning and transformation, wher
 - **family2**: Family2 name to which the AC belongs.
 - **article**: Article reference to which the AC belongs.
 
+<details closed><summary>.</summary>
+
 ### Outcome Format
+
+</details>
 
 #### Table
 
@@ -106,7 +119,11 @@ From these 4 tables, create a pipeline of data cleaning and transformation, wher
 | 16  | family2          | 117988 non-null| object         |
 | 17  | article          | 117988 non-null| object         |
 
+<details closed><summary>.</summary>
+
 ### Sampling
+
+</details>
 
 The rows should be resampled by week on a Monday.
 
@@ -115,27 +132,49 @@ The rows should be resampled by week on a Monday.
 - **original_dates** = ['2023-06-05', '2023-06-06', '2023-06-07', '2023-06-08', '2023-06-09', '2023-06-10', '2023-06-11']
 - **resampled_date** = '2023-06-05'
 
-## Code Evaluation
+<details closed><summary>.</summary>
+
+<details closed><summary>.</summary>
+
+# Code Evaluation
+
+</details>
 
 ### Code Quality
+</details>
+
 - Write clean, readable, and well-structured code.
 - Follow Python best practices and PEP 8 standards.
 - Use meaningful variable and function names to enhance code readability.
+<details closed><summary>.</summary>
 
 ### Modular Design
+</details>
+
 - Divide the code into well-defined functions and/or classes.
 - Ensure that each function or class has a single responsibility and is reusable.
 - Avoid hard-coding values. Instead, use parameters or configuration files.
+<details closed><summary>.</summary>
 
 ### Documentation
+</details>
+
 - Include comments and docstrings to explain the logic, input, and output of functions or classes.
 - Provide a README file explaining the approach, assumptions, and how to run the code.
 - Document any dependencies or libraries used.
+<details closed><summary>.</summary>
 
 ### Error Handling
+</details>
 - Include proper error handling and logging to manage unexpected issues.
 - Handle missing data or incorrect data types gracefully.
+<details closed><summary>.</summary>
 
 ## Efficiency and Performance
+</details>
 - Consider the computational efficiency of your solution. Optimize where possible to handle large datasets.
 - Provide an analysis of time complexity or profiling results if there are performance concerns.
+
+<details closed><summary>.</summary>
+
+<details closed><summary>.</summary>
