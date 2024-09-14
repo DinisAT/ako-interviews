@@ -7,6 +7,7 @@ The data is represented in 4 tables related to the retail-fashion industry.
 
 ### Tables
 <details closed><summary>.</summary>
+
 1. **transac.parquet**: Represents each sale that occurred for each SKU item.
 2. **pos.parquet**: Represents the stores for a particular client, whether they are active or not, and their features.
 3. **sku.parquet**: Represents the association from SKU to AC.
@@ -15,6 +16,7 @@ The data is represented in 4 tables related to the retail-fashion industry.
 
 ### Table Columns
 <details closed><summary>.</summary>
+
 #### **transac.parquet**
 - **sku**: Item reference.
 - **pos**: Store where it was sold.
