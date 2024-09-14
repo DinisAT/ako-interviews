@@ -61,16 +61,13 @@ The data is represented in 4 tables related to the retail-fashion industry.
 - **article_color**: Article reference with color.
 - **image**: Item image.
 - **leadtime_prod_w**: Item production information.
-<details closed><summary>.</summary>
-
-<details closed><summary>.</summary>
+</details>
 
 ## Test Goal
-</details>
 From these 4 tables, create a pipeline of data cleaning and transformation, where we expect the following outcome:
 
 ### Outcome Columns
-</details>
+<details closed><summary>.</summary>
 
 - **ds**: Date.
 - **unique_id**: AC reference.
@@ -90,11 +87,10 @@ From these 4 tables, create a pipeline of data cleaning and transformation, wher
 - **family2**: Family2 name to which the AC belongs.
 - **article**: Article reference to which the AC belongs.
 
-<details closed><summary>.</summary>
+</details>
 
 ### Outcome Format
-
-</details>
+<details closed><summary>.</summary>
 
 #### Table
 
@@ -118,11 +114,8 @@ From these 4 tables, create a pipeline of data cleaning and transformation, wher
 | 16  | family2          | 117988 non-null| object         |
 | 17  | article          | 117988 non-null| object         |
 
-<details closed><summary>.</summary>
 
 ### Sampling
-
-</details>
 
 The rows should be resampled by week on a Monday.
 
@@ -131,49 +124,46 @@ The rows should be resampled by week on a Monday.
 - **original_dates** = ['2023-06-05', '2023-06-06', '2023-06-07', '2023-06-08', '2023-06-09', '2023-06-10', '2023-06-11']
 - **resampled_date** = '2023-06-05'
 
-<details closed><summary>.</summary>
+</details>
 
 <details closed><summary>.</summary>
 
 # Code Evaluation
 
-</details>
-
 ### Code Quality
-</details>
+<details closed><summary>.</summary>
 
 - Write clean, readable, and well-structured code.
 - Follow Python best practices and PEP 8 standards.
 - Use meaningful variable and function names to enhance code readability.
-<details closed><summary>.</summary>
+</details>
 
 ### Modular Design
-</details>
+<details closed><summary>.</summary>
 
 - Divide the code into well-defined functions and/or classes.
 - Ensure that each function or class has a single responsibility and is reusable.
 - Avoid hard-coding values. Instead, use parameters or configuration files.
-<details closed><summary>.</summary>
+</details>
 
 ### Documentation
-</details>
+<details closed><summary>.</summary>
 
 - Include comments and docstrings to explain the logic, input, and output of functions or classes.
 - Provide a README file explaining the approach, assumptions, and how to run the code.
 - Document any dependencies or libraries used.
-<details closed><summary>.</summary>
+</details>
 
 ### Error Handling
-</details>
+<details closed><summary>.</summary>
+
 - Include proper error handling and logging to manage unexpected issues.
 - Handle missing data or incorrect data types gracefully.
-<details closed><summary>.</summary>
+</details>
 
 ## Efficiency and Performance
-</details>
+<details closed><summary>.</summary>
+
 - Consider the computational efficiency of your solution. Optimize where possible to handle large datasets.
 - Provide an analysis of time complexity or profiling results if there are performance concerns.
-
-<details closed><summary>.</summary>
-
-<details closed><summary>.</summary>
+</details>
