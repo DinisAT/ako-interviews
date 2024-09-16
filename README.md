@@ -1,5 +1,11 @@
 # Retail-Fashion Data Engineering Challenge
 
+## Setup
+
+To download the current repo:
+
+`git clone https://github.com/your-username/your-private-repo.git`
+
 ## Data Overview
 
 The data is represented in 4 tables related to the retail-fashion industry.
