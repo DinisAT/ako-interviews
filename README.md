@@ -57,7 +57,6 @@ The data is represented in 4 tables related to the retail-fashion industry.
 - **marketing_rate**: Scale from 1 to 4 (currently not in use).
 - **is_active**: 0 or 1, where 1 identifies the AC is active and 0 identifies it is not active anymore.
 - **article_color**: Article reference with color.
-- **image**: Item image.
 - **leadtime_prod_w**: Item production information.
 
 
