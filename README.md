@@ -77,6 +77,12 @@ From these 4 tables, create a pipeline of data cleaning and transformation, wher
 - **season**: Season (Winter/Summer) it was sold and the year, e.g., **2023SS**.
 - **sales_season**: Boolean (Was it sold during the sales season or not). Sales Seasons: June 01 - July 15 | January 01 - February 15 | Black Friday.
 - **actual_season**: Season it was launched, e.g., unique values: ['WINTER', 'SPRING', 'SUMMER', 'AUTUMN'].
+This are the values corresponding to actual_season column
+        {12: 'WINTER', 1: 'WINTER', 2: 'WINTER',   # December, January, February
+        3: 'SPRING', 4: 'SPRING', 5: 'SPRING',     # March, April, May
+        6: 'SUMMER', 7: 'SUMMER', 8: 'SUMMER',     # June, July, August
+        9: 'AUTUMN', 10: 'AUTUMN', 11: 'AUTUMN'}    # September, October, November
+
 - **iscovid**: Boolean (1 if sold during the COVID season, 0 if not).
 - **is_pub_holidays**: Boolean (1 if sale happened during a public holiday, 0 if not). Note: Sales happened in France.
 - **color**: Main color of the AC reference.
